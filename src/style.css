@@ -4,7 +4,7 @@
     cursor: default;
 }
 
-#principal {}
+/* #principal {} */
 
 #titulo {
     text-align: center;
@@ -21,7 +21,7 @@
 #computador {
     position: relative;
     flex-grow: 1;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #FFF;
     padding: 20px;
 }
@@ -75,7 +75,9 @@
     opacity: .3;
 }
 
-#jogador #jogador-escolha a:hover {
+#jogador #jogador-escolha a:hover,
+#jogador #jogador-escolha a.selecionado,
+#computador #computador-escolha a.selecionado {
     opacity: 1;
 }
 
